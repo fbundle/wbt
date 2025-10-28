@@ -1,0 +1,10 @@
+name = "wbt"
+version = "0.1.0"
+defaultTargets = ["Main.lean"]
+
+[[lean_lib]]
+name = "WBT"
+
+[[lean_exe]]
+name = "Main.lean"
+root = "Main"
